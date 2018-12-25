@@ -1,0 +1,45 @@
+body {
+  background-color: #f7f7f7;
+  background-image:url(/root/Firefox_wallpaper.png);
+  background-size: cover;
+}
+h1{
+  text-align: center;
+  font-size: 50px;
+  color:Blue;
+}
+form{
+  margin: 20px auto;
+  width: 320px;
+  color: yellow;
+}
+input{
+  padding: 10px;
+  font-size: inherit;
+}
+input[type="text"]{
+  display: block;
+  margin-bottom: 25px;
+  width: 100%;
+  border: 2px solid blue;
+  background:#f7f7f7;
+}input[type="password"]{
+  display: block;
+  margin-bottom: 25px;
+  width: 100%;
+  border: 2px solid blue;
+}
+input[type="radio"]{
+  margin: 0 8px 25px 18px;
+
+}
+input[type="radio"]:first-child{
+  margin-left: 0;
+}
+input[type="submit"]{
+  width: 320px;
+  height: 45px
+  border: none;
+  background: blue;
+  color: white;
+}
